@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>bootstrap</title>
+    <!-- llamamos la hoja de estilos de bootstrap desde el cdn -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- llamo mi propia hoja de estilos -->
+    <link rel="stylesheet" href="css/estilos.css">
+    <!-- llamo a normalize.css-->
+    <link rel="stylesheet" href="css/normalize.css">
+    <!--llamo el animate css para agregar animaciones-->
+    <link rel="stylesheet" href="css/animate.css">
+</head>
+<body>
+    <header>
+                 <nav class="navbar navbar-expand-md bg-danger navbar-dark">
+                    <!-- Brand -->
+                    <a class="navbar-brand" href="#">
+                        <img src="img/logo.png" class="animated bounceInLeft" alt="pearl jam">
+                    </a>
+                  
+                    <!-- Toggler/collapsibe Button -->
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+                  
+                    <!-- Navbar links -->
+                    <div class="collapse navbar-collapse d-flex justify-content-end animated bounceInRight " id="collapsibleNavbar">
+                      <ul class="navbar-nav">
+                        <li class="nav-item">
+                          <a class="nav-link" href="#">Link 1</a>
+                        </li>
+                        <!-- Dropdown -->
+                 <li class="nav-item dropdown">
+                         <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                         Dropdown link
+                         </a>
+                   <div class="dropdown-menu">
+                        <a class="dropdown-item" href="#">sublink 1</a>
+                        <a class="dropdown-item" href="#">sublink 2</a>
+                        <a class="dropdown-item" href="#">sublink 3</a>
+                   </div>
+       
+                        <li class="nav-item">
+                          <a class="nav-link" href="#">Link 2</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#">Link 3</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </nav>
+    </header>
+    
+    <div class="container bg-blanco">
+      <div class="row">
+        <div class="col-12">
+            <h2 class="animated bounce display-3 text-center">bootstrap</h2>
+        </div>
+            <div class="col-md-6 col-6">
+               <p class="animated fadeInRight">Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro eius est possimus voluptatem enim necessitatibus, corrupti incidunt veniam modi beatae, qui perferendis odit ipsam dolorum autem voluptate id quibusdam quod.</p>
+            </div>
+            <div class="col-md-6 col-6">
+               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio ipsum eos quasi saepe inventore sed. Recusandae architecto voluptate tempora iste eveniet modi nihil commodi, quod veritatis nostrum voluptatibus reprehenderit numquam.</p>
+            </div>
+      </div>
+
+      <div class="row">
+          <div class="col-lg-4 col-sm-6">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto minus delectus dicta, pariatur sunt dolorum, dolorem sit dolor quod culpa minima animi, totam doloremque aperiam eius odio enim molestias accusantium?</p>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic porro amet accusantium officia tempore neque autem provident dolorum quo dicta id quis, asperiores molestiae sunt iusto sapiente excepturi ea laboriosam.</p>
+          </div>
+          <div class="col-lg-4 col-sm-12">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae incidunt, voluptatibus veritatis eveniet labore atque. Itaque assumenda consequuntur facilis, minus dicta veritatis dolor reprehenderit dolorum quas culpa molestias, dignissimos vitae!</p>
+          </div>
+      </div>
+</div>
+
+<section id="historia">
+    <div class="container bg-blanco">
+        <div class="row">
+            <div class="col-12">
+                <h2 class="display-3 text-center bg-danger">historia</h2>
+                <p class="text-right text-sm-center text-xl-left p-5">Lorem <small>ipsum dolor</small> sit amet consectetur adipisicing elit. Enim deleniti quae nobis consequatur provident. Quam aspernatur, <mark>ducimus consectetur dicta</mark> fugit ut sit suscipit quibusdam mollitia odit commodi, beatae eaque quasi. <kbd> ctrl + shift + Z</kbd></p>
+                
+                
+                
+            </div>
+            <div class="col-md-4">
+                    <button type="button" class="btn btn-outline-success">mi boton</button>
+            </div>
+            <div class="col-md-4">
+                    <button type="button" class="btn btn-warning btn-lg btn-block">mi boton</button>
+            </div>
+            <div class="col-md-4">
+                    <button type="button" class="btn btn-danger btn-sm disabled">mi boton es mas largo</button>
+            </div>
+            <div class="col-md-6 mt-5 p-5">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus, quam molestias corrupti in suscipit neque aliquam velit, consectetur optio officia dolor, magni similique perferendis distinctio eveniet fugiat dolore corporis. Sunt!</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam reiciendis ea quod corrupti deleniti! Quis et repellendus culpa. Quisquam fugit ab dicta? Maxime harum, aspernatur cumque accusantium maiores deleniti dicta!</p>
+                <div class="btn-group">
+                    <button class="btn btn-primary">Aple</button>
+                    <button class="btn btn-dark">Microsoft</button>
+                    <button class="btn btn-success">Linux</button>
+                </div>
+                
+            </div>
+            <div class="col-md-6 mt-5 p-5">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus, quam molestias corrupti in suscipit neque aliquam velit, consectetur optio officia dolor, magni similique perferendis distinctio eveniet fugiat dolore corporis. Sunt!</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam reiciendis ea quod corrupti deleniti! Quis et repellendus culpa. Quisquam fugit ab dicta? Maxime harum, aspernatur cumque accusantium maiores deleniti dicta!</p>
+                    <div class="btn-group">
+                        <button class="btn btn-primary">Aple</button>
+                        <button class="btn btn-dark">Microsoft</button>
+                        <button class="btn btn-success">Linux</button>
+                    </div>
+                    
+                </div>
+
+        </div>
+    </div>
+</section>
+
+<section id="discos">
+    <div class="container bg-blanco">
+        <div class="row">
+            <div class="col-12">
+                    <h2 class="dispaly-3 text-center">Discografía</h2>
+            </div>
+
+           <div class="col-md-6">
+                  <h4>Ubicación</h4>
+
+                  <table class="table table-bordered table-hover table-striped table-dark">
+                        <thead>
+                          <tr>
+                            <th>Firstname</th>
+                            <th>Lastname</th>
+                            <th>Email</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td>John</td>
+                            <td>Doe</td>
+                            <td>john@example.com</td>
+                          </tr>
+                          <tr>
+                            <td>Mary</td>
+                            <td>Moe</td>
+                            <td>mary@example.com</td>
+                          </tr>
+                          <tr>
+                            <td>July</td>
+                            <td>Dooley</td>
+                            <td>july@example.com</td>
+                          </tr>
+                          <tr>
+                                <td>July</td>
+                                <td>Dooley</td>
+                                <td>july@example.com</td>
+                              </tr>
+                              <tr>
+                                    <td>July</td>
+                                    <td>Dooley</td>
+                                    <td>july@example.com</td>
+                                  </tr>
+                        </tbody>
+                      </table>
+
+                      
+           </div>
+           <div class="col-md-6">
+                  <h4>Contacto</h4>
+
+                  <form action="/action_page.php" class="needs-validation" novalidate>
+                    <div class="form-group">
+                      <label for="uname">Username:</label>
+                      <input type="text" class="form-control" id="uname" placeholder="Enter username" name="uname" required>
+                      <div class="valid-feedback">Valid.</div>
+                      <div class="invalid-feedback">Please fill out this field.</div>
+                    </div>
+
+                    <div class="form-group">
+                      <label for="pwd">Password:</label>
+                      <input type="password" class="form-control form-control-lg" id="pwd" placeholder="Enter password" name="pswd" required>
+                      <div class="valid-feedback">Valid.</div>
+                      <div class="invalid-feedback">Please fill out this field.</div>
+                    </div>
+
+                    <div class="form-group">
+                            <label for="fmail">Email:</label>
+                            <input type="email" class="form-control" id="fmail" placeholder="ingresa tu correo" name="fmail" required>
+                            <div class="valid-feedback">Valid.</div>
+                            <div class="invalid-feedback">Please fill out this field.</div>
+                          </div>
+
+                    <div class="form-group form-check">
+                      <label class="form-check-label">
+                        <input class="form-check-input" type="checkbox" name="remember" required> I agree on blabla.
+                        <div class="valid-feedback">Valid.</div>
+                        <div class="invalid-feedback">Check this checkbox to continue.</div>
+                      </label>
+                    </div>
+                   <div class="d-flex justify-content-end">
+                         <button type="reset" class="btn btn-danger mr-1">Limpiar formulario</button>
+                         <button type="submit" class="btn btn-success">Enviar</button>
+                   </div>
+                  </form>
+
+           </div>
+           <div class=" col-md-6 jugando">
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni omnis corporis pariatur recusandae animi dolores optio ipsam nesciunt consectetur ea earum dolore odit impedit, explicabo iure nostrum eius? Dolorem, eveniet.</p>
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni omnis corporis pariatur recusandae animi dolores optio ipsam nesciunt consectetur ea earum dolore odit impedit, explicabo iure nostrum eius? Dolorem, eveniet.</p>
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni omnis corporis pariatur recusandae animi dolores optio ipsam nesciunt consectetur ea earum dolore odit impedit, explicabo iure nostrum eius? Dolorem, eveniet.</p>
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni omnis corporis pariatur recusandae animi dolores optio ipsam nesciunt consectetur ea earum dolore odit impedit, explicabo iure nostrum eius? Dolorem, eveniet.</p>
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni omnis corporis pariatur recusandae animi dolores optio ipsam nesciunt consectetur ea earum dolore odit impedit, explicabo iure nostrum eius? Dolorem, eveniet.</p>
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni omnis corporis pariatur recusandae animi dolores optio ipsam nesciunt consectetur ea earum dolore odit impedit, explicabo iure nostrum eius? Dolorem, eveniet.</p>
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni omnis corporis pariatur recusandae animi dolores optio ipsam nesciunt consectetur ea earum dolore odit impedit, explicabo iure nostrum eius? Dolorem, eveniet.</p>
+           </div>
+           
+
+        </div>
+    </div>
+</section>
+<section id="modal">
+        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
+                Open modal
+              </button>
+              <div class="modal" id="myModal">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                  
+                        <!-- Modal Header -->
+                        <div class="modal-header">
+                          <h4 class="modal-title">Modal Heading</h4>
+                          <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        </div>
+                  
+                        <!-- Modal body -->
+                        <div class="modal-body">
+                          Modal body..
+                        </div>
+                  
+                        <!-- Modal footer -->
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                        </div>
+                  
+                      </div>
+                    </div>
+                  </div>
+
+</section>
+
+<footer class="bg-dark">
+     
+</footer>
+    
+
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+<script>
+        // Disable form submissions if there are invalid fields
+        (function() {
+          'use strict';
+          window.addEventListener('load', function() {
+            // Get the forms we want to add validation styles to
+            var forms = document.getElementsByClassName('needs-validation');
+            // Loop over them and prevent submission
+            var validation = Array.prototype.filter.call(forms, function(form) {
+              form.addEventListener('submit', function(event) {
+                if (form.checkValidity() === false) {
+                  event.preventDefault();
+                  event.stopPropagation();
+                }
+                form.classList.add('was-validated');
+              }, false);
+            });
+          }, false);
+        })();
+</script>
+
+</body>
+
+
+
+
+</html>
+
+
+

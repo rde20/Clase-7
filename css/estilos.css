@@ -1,0 +1,25 @@
+
+body {background: cornflowerblue;}
+header img {width: 150px;}
+h2 {}
+.bg-blanco { background: white;}
+#historia small { color: red;}
+#historia mark { background: yellow}
+#discos table { cursor: crosshair   ;}
+#discos table th { background: blue;}
+#discos .table-dark.table-striped tbody tr:nth-of-type(odd) {
+    background-color: rgba(0, 0, 0, 0.05);
+  }
+  #discos .jugando p:nth-last-of-type(even) { color: red;}
+  
+  #discos .jugando p:nth-last-of-type(3) {color: green;}
+
+  #discos .jugando p:first-child {background: hotpink;}
+
+  #discos .jugando p:last-child  {background: indianred; color: indigo;}
+ 
+  #discos .form-control {border-radius: 0; transition: all 1.5s; }
+
+  #discos input:focus {border-radius: 1rem;}
+  
+footer {height: 200px;}
